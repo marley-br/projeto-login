@@ -27,31 +27,27 @@
 
                     <div class="campo">
 
-                        <span id="name-icon" class="material-icons">person</span>
-                        <input type="email" name="login" id="ilogin" placeholder="seu email" required>
-                        <label for="ilogin">login</label>
+                        <span class="material-icons">person</span>
+                        <input type="email" name="login" id="ilogin" placeholder="seu email" autocomplete="email" max-length="30" required>
+                        <label for="ilogin"></label>
 
                     </div>
 
                     <div class="campo">
 
-                        <span id="password-icon" class="material-icons">vpn_key</span>
-                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required>
-                        <label for="isenha">senha</label>
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplete="current-password" min-lenght="8" max-length="20" required>
+                        <label for="isenha"></label>
 
                     </div>
+                    
+                    <input type="submit" value="Entrar">
 
-                    <div id="entrar">
+                    <a href="esqueci.html">
+                        esqueci a senha <span class="material-icons">mail</span>
+                    </a>
 
-                        <input type="submit" value="Entrar">
-
-                    </div>
-
-                    <div id="esqsenha">
-
-                        <a href="#">esqueci a senha<span id="esq-senha" class="material-icons">email</span></a>
-
-                    </div>
+                   
 
                 </form>
 
