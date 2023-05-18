@@ -19,7 +19,7 @@
         height: 100%;
     }
 
-    body, html {
+    body {
 
         background-image: linear-gradient(to top, var(--cor1) , var(--cor2)60%);
     }
@@ -45,6 +45,11 @@
         float: right;
         width: 50%;
         height: 100%;
+    }
+
+    body {
+
+        background-image: linear-gradient(to top, var(--cor1) , var(--cor2)60%);
     }
 }
 
